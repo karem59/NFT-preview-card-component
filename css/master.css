@@ -1,0 +1,147 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.contanr{
+    width: 330px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 9%;
+    margin-left: 42%;
+    height: 558px;
+    border-radius: 9px;
+}
+
+.img-1 img{
+    width: 289px;
+    margin-left: 6%;
+    margin-top: 21px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
+
+.img-1 img:hover{
+    background-image:  hsl(178, 100%, 50%);;
+}
+
+.text{
+    color: white;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.text:hover{
+    color:  hsl(178, 100%, 50%);  ;  
+}
+
+.text h3{font-weight: 600;
+
+}
+
+.text-2{
+    color:  rgb(139, 172, 217);
+    margin-left: 22px;
+}
+
+.icon{
+    margin-left: 22px;
+}
+
+.tex_3{
+  color: hsl(178, 100%, 50%);  
+  font-size: 16px;
+  margin-left: 38px;
+  margin-top: -38px;
+  font-weight: 600;
+}
+
+.clock{
+    margin-top: -34px;
+    display: flex;
+    margin-left: 209px;
+}
+
+.tex_4{
+    margin-left: 230px;
+    color:  rgb(139, 172, 217);
+    margin-top: -39px;
+
+}
+
+.lin{
+    margin-left: 26px;
+    width: 284px;
+    color: hsl(215, 32%, 27%);
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.img-2 img{
+    width: 33px;
+    margin-left: 22px;
+    border-radius: 100px;
+    border: 1px white solid;
+    margin-top: 6px;
+}
+
+.tex_5{
+    margin-left: 71px;
+    margin-top: -32px;
+    color: white;
+    cursor: pointer;
+}
+
+.tex_5:hover{
+    color: hsl(178, 100%, 50%);   ;
+}
+
+.tex_5 span{
+    color:  rgba(139, 172, 217, 0.856);
+    cursor: text;
+}
+
+.eye{
+    color: white;
+    margin-top: -386px;
+    margin-left: 153px;
+   /* visibility: hidden; */
+   /* transform: rotateY(90deg); */
+   cursor: pointer;
+}
+
+.eye:hover{
+    transform: rotateY(0deg);
+}
+
+
+.eye i{
+    background-color: hsl(178deg 100% 50% / 49%);
+    display: inline-block;
+    width: 288px;
+    text-align: center;
+    margin-left: -132px;
+    height: 158px;
+    border-radius: 9px;
+    border-top: 129px hsl(154deg 100% 50% / 0%) solid;
+    margin-top: -152px;
+    transform: rotateY(90deg);
+}
+
+
+.eye i:hover{
+    transform: rotateY(0deg);
+}
+
